@@ -1,0 +1,26 @@
+.features__main {
+	background-color: var(--primary-violet);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.features__main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	width: 100%;
+	color: var(--gray);
+}
+
+.features__main-cards {
+	text-align: center;
+	width: 25%;
+	padding: 10px;
+	margin: 20px;
+}

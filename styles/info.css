@@ -1,0 +1,148 @@
+.info__main {
+	background-color: var(--primary-violet);
+}
+
+.characters__main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.characters__container {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	width: 100%;
+}
+
+.character__card {
+	width: 25%;
+	height: 400px;
+	padding: 20px;
+	margin: 20px;
+	/* background: var(--transparent-violet); */
+}
+
+.img img {
+	width: 100%;
+	margin: 0;
+}
+
+.name {
+	/* text-align: center; */
+	margin-top: 30px;
+	font-size: 24px;
+	color: var(--secondary-violet);
+}
+
+.news__main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.news__main-container {
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	width: 100%;
+}
+
+.news-card {
+	width: 40%;
+	padding: 20px;
+	margin: 20px;
+}
+
+.heading {
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--white);
+}
+
+.news-content {
+	margin-top: 20px;
+	color: var(--gray);
+	font-size: 18px;
+}
+
+.read {
+	color: var(--secondary-violet);
+	margin-top: 40px;
+}
+
+.dated {
+	text-align: right;
+	color: #514cafd8;
+	padding-right: 20px;
+}
+
+.form__main {
+	height: 130vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -90px;
+}
+
+.form-name,
+.phone,
+.amount,
+.textarea {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.amount,
+.textarea {
+	margin-top: 20px;
+}
+input,
+textarea {
+	height: 40px;
+	width: 500px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: var(--primary-violet);
+	border: var(--secondary-violet) solid 1px;
+}
+label {
+	color: var(--white);
+}
+
+.btn-2 {
+	background-color: var(--secondary-violet);
+	padding: 15px 40px;
+	margin: 10px 20px;
+	text-align: center;
+	color: var(--white);
+}
+
+.btn-div {
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.ai__main {
+	background-color: var(--primary-violet);
+	display: flex;
+	height: 120vh;
+	flex-direction: column;
+	justify-content: center;
+	color: var(--white);
+	padding: 100px;
+	align-items: center;
+}

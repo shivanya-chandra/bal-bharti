@@ -1,16 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("./nav.css");
+@import url("./landing.css");
+@import url("./about.css");
+@import url("./features.css");
+@import url("./gallery.css");
+@import url("./info.css");
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: K2D;
+}
+
+:root {
+	--background-violet: #1a1757ec;
+	--primary-violet: #1a1757;
+	--secondary-violet: #5b54af;
+	--transparent-violet: #5c54af7e;
+	--gray: #c1c1c1;
+	--white: #fff;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }

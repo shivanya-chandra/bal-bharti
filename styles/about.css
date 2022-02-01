@@ -1,0 +1,29 @@
+.about__main {
+	background-color: var(--primary-violet);
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about__main-heading,
+.features__main-heading,
+.gallery__main-heading,
+.characters__main-heading,
+.news__main-heading,
+.gallery__main-heading,
+.form__main-heading,
+.ai__main-heading {
+	margin-top: 70px;
+	color: var(--white);
+	font-size: 24px;
+}
+
+.about__main-content {
+	color: var(--gray);
+	text-align: center;
+	padding: 30px 100px;
+	font-size: 20px;
+	line-height: 45px;
+}
